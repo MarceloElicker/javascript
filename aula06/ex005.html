@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background-color: bisque;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Iniciando estudos DOM</h1>
+    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam placeat, libero maxime fugit labore perspiciatis totam ipsam distinctio provident laudantium temporibus blanditiis voluptates porro minima excepturi expedita aspernatur harum ipsum.</p>
+
+    <div id="msg">Clique em mim</div>
+
+    <script>
+       var d = window.document.getElementById('msg'); 
+        d.style.fontSize = '50px';
+        d.innerText = 'Estou aprendendo muuuuiiiiiito, texto alterado pelo js...';
+        
+
+        var t = window.document.querySelector('p.text');
+        t.style.color = 'red';
+    </script>
+</body>
+</html>
