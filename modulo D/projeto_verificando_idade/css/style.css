@@ -28,6 +28,7 @@ header{
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
 }
 
 main{
@@ -50,13 +51,17 @@ div{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-#msg{
-    height: 60px;
-    font-family: 'Courier New', Courier, monospace;
+div p{
+    padding: 5px;
 }
+
+div#res{
+    padding: 10px;
+}
+
 
 main section img{
     width: 85%;
@@ -67,6 +72,7 @@ main section img{
 footer{
     font-style: italic;
     color: white;
+    margin-top: 20px;
 }
 
 footer h2{
